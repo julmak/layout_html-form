@@ -1,1 +1,20 @@
-/* styles go here */
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  height: auto;
+  line-height: 50px;
+  margin: 20px;
+}
+
+.box > input,
+.cats {
+  margin-top: 10px;
+}
+
+.button {
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #c9c3c3;
+}
