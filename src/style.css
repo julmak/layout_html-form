@@ -1,20 +1,16 @@
-* {
-  box-sizing: border-box;
+.form-field {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .box {
-  height: auto;
-  line-height: 50px;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
-.box > input,
-.cats {
-  margin-top: 10px;
+.box:first-child {
+  margin-top: 0;
 }
 
-.button {
-  background: none;
-  border-radius: 5px;
-  border: 1px solid #c9c3c3;
+.form-field:last-child {
+  margin-bottom: 0;
 }
